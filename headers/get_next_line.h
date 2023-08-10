@@ -6,7 +6,7 @@
 /*   By: aceauses <aceauses@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 14:45:36 by aceauses          #+#    #+#             */
-/*   Updated: 2023/07/29 16:33:40 by aceauses         ###   ########.fr       */
+/*   Updated: 2023/08/10 15:05:27 by aceauses         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ char		*get_next_line(int fd);
 void		*ft_calloc_gnl(size_t count, size_t size);
 char		*ft_strjoin_gnl(char const *line, char const *new_line);
 size_t		ft_strlen_mod(const char *str);
-char		*ft_strchr(const char *str, int c);
+char		*ft_strchr_gnl(const char *str, int c);
 char		*free_join(char *buffer, char *buff);
 
 #endif

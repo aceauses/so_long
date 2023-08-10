@@ -6,7 +6,7 @@
 /*   By: aceauses <aceauses@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 17:00:27 by aceauses          #+#    #+#             */
-/*   Updated: 2023/08/04 16:03:17 by aceauses         ###   ########.fr       */
+/*   Updated: 2023/08/10 15:06:19 by aceauses         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ size_t	ft_strlen_mod(const char *str)
 	return (i);
 }
 
-char	*ft_strchr(const char *str, int c)
+char	*ft_strchr_gnl(const char *str, int c)
 {
 	char	cr;
 

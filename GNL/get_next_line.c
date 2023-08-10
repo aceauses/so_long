@@ -6,7 +6,7 @@
 /*   By: aceauses <aceauses@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 15:12:47 by aceauses          #+#    #+#             */
-/*   Updated: 2023/08/04 16:08:39 by aceauses         ###   ########.fr       */
+/*   Updated: 2023/08/10 15:05:38 by aceauses         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static char	*get_text_fd(int fd, char *buffer)
 			return (free(tmp), tmp = NULL, free(buffer), buffer = NULL, NULL);
 		tmp[bytes_readed] = '\0';
 		buffer = free_join(buffer, tmp);
-		if (ft_strchr(tmp, '\n'))
+		if (ft_strchr_gnl(tmp, '\n'))
 			break ;
 	}
 	return (free(tmp), buffer);
